@@ -1,0 +1,51 @@
+
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(26, 26, 128); 
+    height: 70px;
+}
+
+.flex{
+    display: flex;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header nav a{
+   font-family: arial;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content:end;
+    text-align: center;
+    margin: 0px 80px 0px 0px;
+}
+
+header img{
+    width: 400px;
+    margin: 0px
+}
+
+img{
+    margin-top: 25px;
+    width: 100%;
+}
+
+.fleximg{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+

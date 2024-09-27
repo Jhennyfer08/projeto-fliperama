@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+h3{
+    margin: 20px 35px;
+    color: 0000;
+    font-family: Arial;
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+.galeria-caixa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3vw;
+    padding: 0 1vw;
+}
+.galeria-itens{
+    width: 340px;
+    height: 340px;
+    border: 10px solid  #eee; 
+    box-shadow: 5px 5px 5px #0006;
+  
+}
+.galeria-itens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.galeria-itens:hover{
+    transform: scale(1.3);
+
+}
+.base{
+    margin-top: 20px;
+    margin-bottom: 45px;
+}

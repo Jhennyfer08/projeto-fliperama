@@ -1,0 +1,48 @@
+
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 20px 35px;
+    color: 0000;
+    font-family: Arial;
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2{
+    margin: 20px 35px;
+    color: 0000;
+    font-family: Arial;
+    font-size: xx-large;
+    font-weight: 900;
+    text-size-adjust: 20px ;
+    text-align: center;
+}
+
+#space{
+    margin-bottom: 90px;
+}
+
+p{
+    margin: 15px 150px 25px;
+    text-align: justify;
+    color: black;
+    font-family:ARIAL;
+}
+
+main, ul , li{
+    margin: 5px 90px;
+    text-align: justify;
+    color: black;
+    font-family:ARIAL;
+}
+
+main div{
+    margin: 0px 0px 25px;
+}
+
